@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            font-family: 'Courier New', Courier, monospace;
+        }
+        h1 {
+            text-align: center;
+        }
+        h2 {
+            width: 50%;
+            margin-left: 280px;
+        }
+        li {
+            margin-left: 270px;
+            width: 50%;
+        }
+        label {
+            margin-left: 280px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        p {
+            margin-left: 280px;
+        }
+    </style>
+</head>
+<body>
+    <div class="title">
+        <h1>Considering the HTML snippet above, answer the following questions:</h1><br/>
+
+        <div class="question">
+            <h2>1. Identify all the HTML tags in the code snippet, their names and what they are for.</h2>
+            <ol>
+                <li>
+                    p - in HTML element, it represents a paragraph.
+                </li>
+                <li>
+                    em - in HTML element, it marks the text that has stress emphasis. The nested text will be <em>emphasized</em>.
+                </li>
+                <li>
+                    a - in HTML element, <a href="#">a tag</a> defines a hyperlink, which is used to link from one page to another. The most important attribute of the <strong>a</strong> element is the href attribute.
+                </li>
+                <li>
+                    strong - in HTML element, it is used to define text with strong importance. The nested text will be <strong>bold</strong>.
+                </li>
+                <li>
+                    blockquote - this tag specifies a section that is quoted from another source.
+                </li>
+                <li>
+                    br - in HTML element, this tag produces a line break in text.
+                </li>
+            </ol>
+        </div>
+        <div class="question">
+            <h2>2. Some HTML tags don't contain any content, and instead are known as void elements, also called <em>self-closing tags</em>. Which tag/tags is a void element?</h2>
+            <label for="">From our assignment, this are the non-voided tags:</label>
+            <ol>
+                <li><strong>p</strong> or paragraph tag.</li>
+                <li><strong>em</strong> or stress emphasis.</li>
+                <li><strong>a</strong> or hyperlink.</li>
+                <li><strong>strong</strong> or bold.</li>
+                <li><strong>blockquote</strong> or quote from another source.</li>
+            </ol>
+            <label for="">Below is the voided element:</label>
+            <ol>
+                <li><strong>br</strong> or line break element.</li>
+            </ol>
+        </div>
+        <div class="question">
+            <h2>3. HTML tags can be nested, which means that one tag can be put inside another. Which tags in the code snippet are nested? Don't include any self-closing tags.</h2>
+            <label for="">Nested tags in the snippet, are:</label>
+            <ol>
+                <li>em</li>
+                <li>a</li>
+                <li>strong</li>
+                <li>p</li>
+            </ol>
+            <label for="">Non-nested tags:</label>
+            <ol>
+                <li>blockquote</li>
+            </ol>
+        </div>
+        <div class="question">
+            <h2>4. Visit this link <a href="https://validator.w3.org/#validate_by_input">https://validator.w3.org/#validate_by_input</a> Links to an external site.and paste the HTML markup above. What errors/warnings did you get?</h2>
+            <label for="">Since the code is incomplete, errors are:</label>
+            <ol>
+                <li>Warning: Consider adding a lang attribute to the html start tag to declare the language of this document.</li>
+                <li>Error: Start tag seen without seeing a doctype first. Expected <!DOCTYPE html>.</li>
+                <li>Error: Element head is missing a required instance of child element title.</li>
+                <li>Info: Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.</li>
+            </ol>
+        </div>
+        <div class="question">
+            <h2>5. Modify the code so that it doesn't contain any errors/warnings anymore. Update and paste the link to your GitHub repo containing the modified code above to complete this assignment. Observe proper use of commits and commit message to any incremental changes you make to the code.</h2>
+            <p>You can view my #5 answer <a href="file:///D:/Kodes/Assignment%231/number5.html">here</a>.</p>
+        </div>
+    </div>
+    
+</body>
+</html>
